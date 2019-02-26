@@ -1,0 +1,121 @@
+{
+    "name": "BizBot02",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "49",
+            "name": "BizBot02",
+            "tenantId": "629782df-5894-47f2-9c75-eaf64dcb48ed",
+            "subscriptionId": "27d6e47b-9377-48bb-944f-42bbdb571679",
+            "resourceGroup": "BizBot02",
+            "serviceName": "BizBot02",
+            "appId": "129ec10c-f0d6-4264-a8ef-8096eb667940"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "129ec10c-f0d6-4264-a8ef-8096eb667940",
+            "appPassword": "YQjwABMXIBrRkt73N4Vuvg==!OWvnDfTdquCAs4YPa9U3pHDYHiZaGBNzkUu9Fplbt/gcUMu0e4Cnv1cgS1ugX1iy",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "30",
+            "name": "production",
+            "appId": "129ec10c-f0d6-4264-a8ef-8096eb667940",
+            "appPassword": "hFMrks1WNaU3vb1bXvJFFw==!RSgR/jfH9GD5YfElemkE57tFpjTb8gr0TLcA82j3rXlFhTsVYUgnrTZRUW/vAuZH",
+            "endpoint": "https://bizbot02.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "629782df-5894-47f2-9c75-eaf64dcb48ed",
+            "subscriptionId": "27d6e47b-9377-48bb-944f-42bbdb571679",
+            "resourceGroup": "BizBot02",
+            "name": "BizBot02",
+            "serviceName": "BizBot02",
+            "instrumentationKey": "I5+W1bThmRsdZQ01B90+UA==!CGGl0BR7xbyO7fkCDDv0otV7V+x7Iusf0ralKst+QYDN8rO/z/COUoXVZbrxunIH",
+            "applicationId": "335885d2-57e7-4ef8-be08-bef79cf616b8",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "bizbot02",
+            "serviceName": "bizbot02",
+            "tenantId": "629782df-5894-47f2-9c75-eaf64dcb48ed",
+            "subscriptionId": "27d6e47b-9377-48bb-944f-42bbdb571679",
+            "resourceGroup": "BizBot02",
+            "connectionString": "HDCR/GLaR1ZMWl6jiykvyw==!c7y3o5zMIE59fowyHIi5GaovbAf0Tr0xPPw9vQeDUZSs3B4ykHQtOxk4Kx/n9+uqcEeMMxBqzrvJSkPVg1Udv5MRF2TdCzCf+zc6qhKQv8jbJ0P78lhz7pBpczJIpQRmURyk5GVl1IXLMaKxyNPjfWv12eHWrE1EVYnu76aBK+6rLF8DjiZYf3maFfunA2HUO86VDNgjVlAX8e6tWmQiZ2uNc+sVPeD1MZK0znzwSP8N2Hv76ezj09eSAGkdecRd",
+            "container": "transcripts"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "bizbot02",
+            "serviceName": "bizbot02",
+            "tenantId": "629782df-5894-47f2-9c75-eaf64dcb48ed",
+            "subscriptionId": "27d6e47b-9377-48bb-944f-42bbdb571679",
+            "resourceGroup": "BizBot02",
+            "endpoint": "https://bizbot02.documents.azure.com:443/",
+            "key": "W4ZmCDkhd0OtVGcg/YjLaQ==!9sNNL/5RlER77bD14BER4y16R7iNh0XJ4fw0BZcscx8X7MG2ruxyfWQmY8e4kU65GnI6eTZHOdBkt/2iar8NQANdD2UGadkwyZ4B5dfLw17uH9WrhfxUwlampjd8cZsv",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        },
+        {
+            "type": "luis",
+            "name": "BizBot02_General",
+            "appId": "1fcbd6c7-c6c9-4e39-ba27-d36b98c374df",
+            "authoringKey": "kOnQ9TiOI8dGvE2K2K6jiQ==!L4ybweVIZpbgrPb6sZ0xkxoZqNPxvc1cZwdpHIT723mDUSuMZ4tRYvrY/6V7KrHU",
+            "subscriptionKey": "A8ApYVQUdQ4eGzmFbzyCvQ==!RJNX+/wZBpVAnMxcZc7nC26Xkswwfm2AoOPigUnsKt7MsVwPsF6cGuEfzkti3t19",
+            "version": "0.1",
+            "region": "westeurope",
+            "id": "general"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "e8c40f06-a48b-4c8e-b85a-a29cd21c8f1b",
+            "subscriptionKey": "vGE0f6XwbyhiqDjH9fCdkg==!vnxRAsmvDPLBJgL3rNC+z4HRSdCn7N0cuxh3Y7DbSAcQoK7txaEy12GFifqamuY3",
+            "endpointKey": "ilIy2aIAiHHh0PqzFObqEQ==!tQK27Dr+OzUq6hwHDcwZXWLBX0OkybvWxb3RgwTFPNa/RS86QpeX/OnBUcbdNNZs",
+            "hostname": "https://bizbot02-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "qna",
+            "name": "ChitChat",
+            "id": "chitchat",
+            "kbId": "db19f266-59fc-494f-bc86-5db9edd8ca22",
+            "subscriptionKey": "TtZj5MU44awK4qvz3iUU/g==!fF2VIrbxRI3kMHVF/SLDLKaUBGhSZ4i/YZ0Q8PrznPGW7WPQ0QNGBEJn15yJ01rr",
+            "endpointKey": "ftBTN9P3WM2H6C7HUPEFsQ==!vVjOg41TrbCSWQp5V2W1wdvK344DeT1lDTCkXQ5QFjBGzaTLtyA4aEeqmVU0viWw",
+            "hostname": "https://bizbot02-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "faq",
+                "chitchat"
+            ],
+            "name": "BizBot02_Dispatch",
+            "appId": "e057ceb6-f083-45e5-8c33-427ed453ab6e",
+            "authoringKey": "Wp/bWCyThFWOgETEtWRuGg==!TNod0sSHECVpvhnMnUavXmSer9MCd2wietdnH81gsubr1IMjyg2ewGF2XqeEgXHP",
+            "subscriptionKey": "WB+MYY/C8jA6fHMewSvJjQ==!VmVAtPDpOS+ZsaGE9HbDibsrk0H9hZp6ddxedMPUI46b1iAZj367Z8cyJRnUv4OO",
+            "version": "Dispatch",
+            "region": "westeurope",
+            "id": "dispatch"
+        },
+        {
+            "type": "endpoint",
+            "name": "production",
+            "appId": "129ec10c-f0d6-4264-a8ef-8096eb667940",
+            "appPassword": "Km8rN2ufiN56aFyeiozVdg==!6tP71TOLZrhZ9XnMXgHFZKDf7EHgrEzssZbgRfhSs/gaUdP3BH/fQqLqeF/AN+TW",
+            "endpoint": "https://bizbot02.azurewebsites.net/api/messages",
+            "id": "201"
+        }
+    ],
+    "padlock": "TgrkeI2qT8KTuEO4rGZ4jA==!9jx08e3komRHSNLg+VOU+En3h3lpKEVtsUvvQOmjEF5nXMGJkUGr2qGZqQULxhz9",
+    "version": "2.0"
+}

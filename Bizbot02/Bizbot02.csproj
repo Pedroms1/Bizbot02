@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -86,4 +86,5 @@
     </None>
   </ItemGroup>
 
+<PropertyGroup><UserSecretsId>cd9c1e26-003f-4b2f-9491-5bff8dd9f719</UserSecretsId></PropertyGroup>
 </Project>

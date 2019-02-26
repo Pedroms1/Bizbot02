@@ -1,0 +1,1 @@
+az bot publish --resource-group BizBot02 -n BizBot02 --subscription 27d6e47b-9377-48bb-944f-42bbdb571679 -v v4 --proj-name "Bizbot02.csproj" 
